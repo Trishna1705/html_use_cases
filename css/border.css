@@ -1,0 +1,41 @@
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid plum;
+    
+}
+
+/* the leftmost triangle */
+.t1{
+    position: fixed;
+    left: 84.99%;
+    top: 90.7%;
+    transform: rotate(135deg);
+}
+
+/* the topmost triangle */
+.t2{
+    position: fixed;
+    left: 92.6%;
+    top: 75.5%;
+    transform: rotate(135deg);
+}
+
+
+/* the last triangle, the corner piece */
+.t3{
+    position: fixed;
+    left: 92.6%;
+    top: 90.7%;
+    transform: rotate(135deg);
+}
+
+.t4{
+    position: fixed;
+    left: 88.86%;
+    top: 83.1%;
+    border-bottom: 100px solid powderblue;
+    transform: rotate(-45deg);
+}
